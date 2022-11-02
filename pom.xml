@@ -16,11 +16,20 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
     <packaging>pom</packaging>
+
+    <developers>
+        <developer>
+            <name>Dzmitry Liashuk</name>
+            <organization>Spring boot Framework</organization>
+        </developer>
+    </developers>
 
 </project>
